@@ -135,6 +135,7 @@ public class UserModel {
         			
         			while (rs.next()) {
         				bean = new UserBean ();
+        				
         				bean.setId(rs.getInt("id"));
         				bean.setFirst_name(rs.getString("first_name"));
         				bean.setLast_name(rs.getString("last_name"));
